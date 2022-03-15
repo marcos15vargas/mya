@@ -1,0 +1,177 @@
+* {
+	font-family: 'Roboto Condensed', serif;
+}
+
+body {
+	background-color: rgb(30,30,30);
+	background-image: url(fondo.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.header {
+	background: black;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		background: black;
+		display: block;
+		text-align: center;
+	}
+	.nav {
+		width: 333px;
+		margin: 0px auto;
+	}
+
+	.nav a {
+		font-size: 12px;
+	}
+}
+
+.header img {
+	width: 300px;
+	margin: 15px;
+}
+
+.nav {
+	height: 30px;
+	padding-top: 5px;
+	flex: 2;
+	text-align: right;
+}
+
+.nav i {
+	margin: 10px;
+}
+
+.menu2 {
+	margin: 5px;
+	background-image: linear-gradient(#d91c32,#d91c32);
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+	background-position-x: right;
+
+	transition: background-size 500ms; 
+}
+
+.menu2:hover {
+	background-size: 100% 100%;
+	background-position-x: left;
+
+}
+.nav a {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 1fr;
+}
+
+
+.cuerpo {
+	display: flex;
+}
+
+.izquierda {
+	margin: 10px;
+	background-color: #ffffff10;
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter:blur(12px);
+	height: 100%;
+	width: 60%;
+	border-radius: 25px;
+}
+
+.derecha {
+	height: 100%;
+	width: 40%
+}
+
+p {
+	font-family: 'Roboto Condensed', cursive;
+	color: white;
+	margin: 30px;
+}
+
+.foto1 {
+	text-align: center;
+}
+
+.foto1 img {
+	width: 50%;
+	margin: 10px 0px 0px 0px;
+    
+}
+
+.foto1 h2 {
+	color: white;
+	width: 100%
+}
+
+.foto2 {
+	text-align: center;
+}
+
+.foto2 img {
+	width: 50%;
+	margin: 10px 0px 0px 0px;
+
+
+}
+
+.foto2 h2 {
+	color: white;
+	width: 100%
+}
+
+.foto3 {
+	text-align: center;
+}
+
+.foto3 img {
+	width: 50%;
+	margin: 20px 0px 0px 0px;
+    
+}
+
+.foto3 h2 {
+	color: white;
+	width: 100%
+}
+
+@media screen and (max-width: 500px) {
+	.cuerpo {
+		display: block;
+	}
+	.izquierda {
+		width: 100%;
+	}
+	.derecha {
+		width: 100%;
+	}
+}
+
+
+.footer {
+	background: black;
+	height: 50px;
+	text-align: center;
+}
+
+.footer p, span {
+	color: white;
+	font-family: 'Roboto Condensed', cursive;
+	padding-top: 15px;
+
+}
+
+
+@media screen and (max-width: 500px) {
+	.footer {
+		height: 60px;
+	}
+}
