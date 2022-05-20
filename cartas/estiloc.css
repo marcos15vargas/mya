@@ -104,7 +104,9 @@ p {
 	color: white;
 	margin: 30px;
 }
-
+.espacio {
+	height: 20px;
+}
 .final {
 	text-align: center;
 }
